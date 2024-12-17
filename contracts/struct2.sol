@@ -24,4 +24,8 @@ contract STRUCT2 {
     function setAddr(uint _n, string memory _addr) public {
         Class[_n-1].addr = _addr;
     }
+
+    function getClass() public view returns(student[] memory) {
+        return Class;
+    }
 }

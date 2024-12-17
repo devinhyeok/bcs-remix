@@ -1,0 +1,177 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getNumbers",
+				"outputs": [
+					{
+						"internalType": "uint256[][]",
+						"name": "",
+						"type": "uint256[][]"
+					},
+					{
+						"internalType": "uint256[][5]",
+						"name": "",
+						"type": "uint256[][5]"
+					},
+					{
+						"internalType": "uint256[5][]",
+						"name": "",
+						"type": "uint256[5][]"
+					},
+					{
+						"internalType": "uint256[5][5]",
+						"name": "",
+						"type": "uint256[5][5]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_n",
+						"type": "uint256"
+					}
+				],
+				"name": "pushNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_n",
+						"type": "uint256[]"
+					}
+				],
+				"name": "pushNumber1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "idx",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "_n",
+						"type": "uint256[]"
+					}
+				],
+				"name": "pushNumber2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[5]",
+						"name": "_n",
+						"type": "uint256[5]"
+					}
+				],
+				"name": "pushNumber3",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "idx",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256[5]",
+						"name": "_n",
+						"type": "uint256[5]"
+					}
+				],
+				"name": "pushNumber4",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/array_mul_1.sol": "MUlTI_DIM"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/array_mul_1.sol": {
+			"keccak256": "0xdd4cc17c74a9c90ef857e4073642392c4b5db60e744fe19046810965bc6b67c5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e734d9ce9ff94e7db974495201ed829afd0406832813a3ee6f51524c7b026820",
+				"dweb:/ipfs/QmPgr434qcg3iNH2UT5U65gx9TiW7e5YojrL1Z6XqZBQbk"
+			]
+		}
+	},
+	"version": 1
+}

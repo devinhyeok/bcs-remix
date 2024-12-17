@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_s1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_s2",
+						"type": "string"
+					}
+				],
+				"name": "getScore",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_s1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_s2",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_score",
+						"type": "uint256"
+					}
+				],
+				"name": "setScore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mapping3.sol": "MAPPING3"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/mapping3.sol": {
+			"keccak256": "0x6be175803fd7c32e663749c78a58dcdacec4901f8b41c964167175ea166d6aff",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5c7c4daa6858b2bf36fe7dc63a8baa410e54a4d2108e768fee9c88cf2b93dfa2",
+				"dweb:/ipfs/QmaRtKozU7vwGyFZCjN3z3EppAjBnwwiVBgSomXZn6Chvv"
+			]
+		}
+	},
+	"version": 1
+}

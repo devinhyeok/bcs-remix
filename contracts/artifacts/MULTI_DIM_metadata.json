@@ -6,24 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_n",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_m",
-						"type": "uint256"
-					}
-				],
-				"name": "changeNumber",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [],
 				"name": "getLength",
 				"outputs": [
@@ -31,21 +13,17 @@
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
+					},
 					{
 						"internalType": "uint256",
-						"name": "_n",
+						"name": "",
 						"type": "uint256"
-					}
-				],
-				"name": "getNumber",
-				"outputs": [
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
 					{
 						"internalType": "uint256",
 						"name": "",
@@ -60,26 +38,34 @@
 				"name": "getNumbers",
 				"outputs": [
 					{
-						"internalType": "uint256[]",
+						"internalType": "uint256[][]",
 						"name": "",
-						"type": "uint256[]"
+						"type": "uint256[][]"
+					},
+					{
+						"internalType": "uint256[][5]",
+						"name": "",
+						"type": "uint256[][5]"
+					},
+					{
+						"internalType": "uint256[5][]",
+						"name": "",
+						"type": "uint256[5][]"
+					},
+					{
+						"internalType": "uint256[5][5]",
+						"name": "",
+						"type": "uint256[5][5]"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "popNumber",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_a",
+						"name": "_n",
 						"type": "uint256"
 					}
 				],
@@ -102,7 +88,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/array.sol": "ARRAY"
+			"contracts/array_mul_1.sol": "MULTI_DIM"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -116,12 +102,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/array.sol": {
-			"keccak256": "0xd97a8dcecc4799e36975a72827dd939467edea75201442132e757d0b972561cd",
-			"license": "MIT",
+		"contracts/array_mul_1.sol": {
+			"keccak256": "0x9e074e558710b5e512a2d9713a6a8da4ef72b7800e8a159dbcb1d15213ebd5ef",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://32a0b0e84f938d2b45bc1fb09894e0823e8dcb54267dba82c54ef4e7a0321186",
-				"dweb:/ipfs/QmZWBVNxz2ctHuVJX3T6ckSPDPxfJEJGpgnsiMy3smNrD4"
+				"bzz-raw://f99a6c77f41d720ab1272d398754fcd5a3560666459fbeec5986e71a7ba0c12b",
+				"dweb:/ipfs/QmYUwYy3GctNNWP2d7AELtcJUVn7E8kxCDLefpaQoFCLZk"
 			]
 		}
 	},

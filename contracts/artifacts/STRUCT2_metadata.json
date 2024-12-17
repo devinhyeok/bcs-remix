@@ -6,6 +6,41 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "getClass",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "addr",
+								"type": "string"
+							},
+							{
+								"internalType": "bool",
+								"name": "pf",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct STRUCT2.student[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -111,11 +146,11 @@
 	},
 	"sources": {
 		"contracts/struct2.sol": {
-			"keccak256": "0x96b79a95c36a8160663ee491adef657b94ed6764604ea59e9ea2424dfaa5596c",
+			"keccak256": "0xc79326d2c7991d2aefbccb121b41854b0a5660e777a6c50998a87bc20177af20",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9b49a7345faeb9897f5dc89133b7018eb6c37e1e08dc7edd2bf1053c8acf9f11",
-				"dweb:/ipfs/QmT3wHQLYvWzNLoumwPViJfzQsdwjMDxvBfLtce7phGHhH"
+				"bzz-raw://749691ac1ea5a033e50149f0b7d3a54320406132579190c98a093f917e17aaa4",
+				"dweb:/ipfs/QmeBcTTBQRwTQAH6fD11xSbisDM8krNtfMf6HhrLQnd1z7"
 			]
 		}
 	},

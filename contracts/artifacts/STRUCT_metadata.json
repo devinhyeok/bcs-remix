@@ -6,20 +6,9 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_n",
-						"type": "uint256"
-					}
-				],
-				"name": "getStudent",
+				"inputs": [],
+				"name": "getA",
 				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
 					{
 						"internalType": "uint256",
 						"name": "",
@@ -30,14 +19,11 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "getS1",
+				"outputs": [
 					{
 						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
 							{
 								"internalType": "uint256",
 								"name": "number",
@@ -45,21 +31,97 @@
 							},
 							{
 								"internalType": "string",
-								"name": "addr",
+								"name": "name",
 								"type": "string"
 							},
 							{
+								"internalType": "bytes3",
+								"name": "id",
+								"type": "bytes3"
+							},
+							{
 								"internalType": "bool",
-								"name": "pf",
+								"name": "b",
 								"type": "bool"
 							}
 						],
-						"internalType": "struct STRUCT.student",
-						"name": "_s",
+						"internalType": "struct STRUCT.staff",
+						"name": "",
 						"type": "tuple"
 					}
 				],
-				"name": "pushClass",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getS1_2",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes3",
+						"name": "",
+						"type": "bytes3"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getU12",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							}
+						],
+						"internalType": "struct STRUCT.user",
+						"name": "",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							}
+						],
+						"internalType": "struct STRUCT.user",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					}
+				],
+				"name": "setA",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -68,16 +130,166 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_n",
+						"name": "_number",
 						"type": "uint256"
 					},
 					{
 						"internalType": "string",
-						"name": "_addr",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes3",
+						"name": "_id",
+						"type": "bytes3"
+					},
+					{
+						"internalType": "bool",
+						"name": "_b",
+						"type": "bool"
+					}
+				],
+				"name": "setS1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "bytes3",
+								"name": "id",
+								"type": "bytes3"
+							},
+							{
+								"internalType": "bool",
+								"name": "b",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct STRUCT.staff",
+						"name": "_s1",
+						"type": "tuple"
+					}
+				],
+				"name": "setS1_2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
 						"type": "string"
 					}
 				],
-				"name": "setAddr",
+				"name": "setS1_Name",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "setU1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							}
+						],
+						"internalType": "struct STRUCT.user",
+						"name": "_u1",
+						"type": "tuple"
+					}
+				],
+				"name": "setU1_2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "setU1_3",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "setU1_Name",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "setU2",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -96,7 +308,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/struct3.sol": "STRUCT"
+			"contracts/struct.sol": "STRUCT"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -110,12 +322,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/struct3.sol": {
-			"keccak256": "0x7d3fe8680c97eed6e31a7767e0b9b3339c4bb7d65771cb2b3113ea11537526d0",
-			"license": "MIT",
+		"contracts/struct.sol": {
+			"keccak256": "0x83f670aefd13d5cee1ba25c560c709dfb7be7fb7d4fc089efc2438e1df79619d",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a4f95cd7ba7dfff4d5a75f4f2d3f385a224dfc82d93e6dd31f5cb42faca6de14",
-				"dweb:/ipfs/QmRvtyrFZEEDPwspbvhFD8ifJ72pCJn69vgictCCiaeVjJ"
+				"bzz-raw://f08b77b87dd250bbf77f04f128ad6d7cbe7b465ddb9bbd7ec2ee7b5b6c88d54a",
+				"dweb:/ipfs/QmUZv9V1cf9VQvvVry5YnE4KQ28inZ2bMv528TBhVPT1Wq"
 			]
 		}
 	},
