@@ -1,0 +1,123 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_n",
+						"type": "uint256"
+					}
+				],
+				"name": "getStudent",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "addr",
+								"type": "string"
+							},
+							{
+								"internalType": "bool",
+								"name": "pf",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct STRUCT2.student",
+						"name": "_s",
+						"type": "tuple"
+					}
+				],
+				"name": "pushClass",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_n",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_addr",
+						"type": "string"
+					}
+				],
+				"name": "setAddr",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/struct2.sol": "STRUCT2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/struct2.sol": {
+			"keccak256": "0x96b79a95c36a8160663ee491adef657b94ed6764604ea59e9ea2424dfaa5596c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9b49a7345faeb9897f5dc89133b7018eb6c37e1e08dc7edd2bf1053c8acf9f11",
+				"dweb:/ipfs/QmT3wHQLYvWzNLoumwPViJfzQsdwjMDxvBfLtce7phGHhH"
+			]
+		}
+	},
+	"version": 1
+}

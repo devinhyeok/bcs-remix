@@ -6,10 +6,35 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_n",
+						"type": "uint256"
+					}
+				],
+				"name": "getLetter",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
-				"name": "DELETE1",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "getLetter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -20,7 +45,33 @@
 						"type": "uint256"
 					}
 				],
-				"name": "DELETE2",
+				"name": "getLetter2",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "popLetters",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "letter",
+						"type": "string"
+					}
+				],
+				"name": "pushLetters",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -33,27 +84,14 @@
 						"type": "uint256"
 					},
 					{
-						"internalType": "uint256",
-						"name": "_m",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "_s",
+						"type": "string"
 					}
 				],
-				"name": "changeNumber",
+				"name": "setLetter",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getLength",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -62,48 +100,14 @@
 						"internalType": "uint256",
 						"name": "_n",
 						"type": "uint256"
-					}
-				],
-				"name": "getNumber",
-				"outputs": [
+					},
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "_s",
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getNumbers",
-				"outputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "",
-						"type": "uint256[]"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "popNumber",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_a",
-						"type": "uint256"
-					}
-				],
-				"name": "pushNumber",
+				"name": "setLetter2",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -137,11 +141,11 @@
 	},
 	"sources": {
 		"contracts/array3.sol": {
-			"keccak256": "0xa9b978cfcc0fe4196a90cc1d826c344f7085c7edf95273000668194d8c4c87c8",
+			"keccak256": "0xcf60726ff831853c5c50034a94b6d42ddf66c6017f08ac4809db186d3cdc3973",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://e1c016237097c71d87559b838a18ff643be3b83f5567c67b6b16358c7df8b58f",
-				"dweb:/ipfs/QmNoHBXGj9X5kK46ZGX4rxQpjUoNEHB8ajHibGDCpcHuZ4"
+				"bzz-raw://d264f3b75da0dce0cd7a461c903d7b502a0499ce17b07cb3de3d1a7ef7d9c5d9",
+				"dweb:/ipfs/QmRF2bxYDZgSBoDftQ7KRoaQDGBWkNzeNAxJ1ZpLoq53RX"
 			]
 		}
 	},

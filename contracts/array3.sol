@@ -3,40 +3,34 @@
 pragma solidity >=0.8.2 <0.9.0;
 
 contract ARRAY {
-    uint a;
-    string b;
+    string[] letters;
+    string[7] letters2;
 
-    uint[] numbers;
-
-    function pushNumber(uint _a) public {
-        numbers.push(_a);
+    function pushLetters(string memory letter ) public {
+        letters.push(letter);
     }
 
-    function popNumber() public {
-        numbers.pop();
+    function popLetters() public {
+        letters.pop();
     }
 
-    function getNumbers() public view returns(uint[] memory) {
-        return numbers;
+    function getLetter(uint _n) public view returns(string memory) {
+        return letters[_n-1];
     }
 
-    function getNumber(uint _n) public view returns(uint) {
-        return numbers[_n-1];
+    function setLetter(uint _n, string memory _s) public {
+        letters[_n-1] = _s;
     }
 
-    function changeNumber(uint _n, uint _m) public {
-        numbers[_n-1] = _m;
-    } 
-
-    function getLength() public view returns(uint) {
-        return numbers.length;
+    function getLetter2(uint _n) public view returns(string memory) {
+        return letters2[_n-1];
     }
 
-    function DELETE1() public {
-        delete numbers;
+    function setLetter2(uint _n, string memory _s) public {
+        letters2[_n-1] = _s;
     }
 
-    function DELETE2(uint _n) public {
-        delete numbers[_n-1];
+    function getLetter() public view returns(uint) {
+        return letters.length;
     }
 }
