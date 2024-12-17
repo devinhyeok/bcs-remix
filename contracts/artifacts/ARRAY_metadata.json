@@ -29,12 +29,12 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_a",
+						"name": "_n",
 						"type": "uint256"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_b",
+						"name": "_m",
 						"type": "uint256"
 					}
 				],
@@ -60,7 +60,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_a",
+						"name": "_n",
 						"type": "uint256"
 					}
 				],
@@ -80,12 +80,32 @@
 				"name": "getNumbers",
 				"outputs": [
 					{
-						"internalType": "uint256[5]",
+						"internalType": "uint256[]",
 						"name": "",
-						"type": "uint256[5]"
+						"type": "uint256[]"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "popNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					}
+				],
+				"name": "pushNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -102,7 +122,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/array2.sol": "ARRAY"
+			"contracts/array3.sol": "ARRAY"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -116,12 +136,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/array2.sol": {
-			"keccak256": "0x35e77cab9525cd19be4a01dcb76e49106172bcc917e3ec9561cf0cdb8ba4156a",
-			"license": "MIT",
+		"contracts/array3.sol": {
+			"keccak256": "0xa9b978cfcc0fe4196a90cc1d826c344f7085c7edf95273000668194d8c4c87c8",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://408da6d5da041bbf0b1897fd08bd91d3632eb4c796bcc82224aba4b995117cc7",
-				"dweb:/ipfs/Qmef2GLSUPMnbyZYfCmZeMub8o4gZnWazFP9NjYQEEGh3E"
+				"bzz-raw://e1c016237097c71d87559b838a18ff643be3b83f5567c67b6b16358c7df8b58f",
+				"dweb:/ipfs/QmNoHBXGj9X5kK46ZGX4rxQpjUoNEHB8ajHibGDCpcHuZ4"
 			]
 		}
 	},
