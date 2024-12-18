@@ -6,26 +6,26 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "_n",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "add2",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getNumbers",
+				"name": "getAddress",
 				"outputs": [
 					{
-						"internalType": "uint256[]",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256[]"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -33,31 +33,45 @@
 			},
 			{
 				"inputs": [],
-				"name": "loop1",
+				"name": "getAddressBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					},
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "getBalance",
+				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_n",
-						"type": "uint256"
+						"internalType": "address payable",
+						"name": "_rec",
+						"type": "address"
 					}
 				],
-				"name": "loop2",
+				"name": "sendMoney",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -65,25 +79,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_n",
-						"type": "uint256"
+						"internalType": "address payable",
+						"name": "_b",
+						"type": "address"
 					}
 				],
-				"name": "loop3",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_n",
-						"type": "uint256"
-					}
-				],
-				"name": "onlyOdd",
+				"name": "setB",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -102,7 +103,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/for.sol": "FOR"
+			"contracts/address.sol": "ADDRESS"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -116,12 +117,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/for.sol": {
-			"keccak256": "0x55895cdd21abc3e4f8a813269abf37727028080a549e48fe135f5be0341fbd2d",
+		"contracts/address.sol": {
+			"keccak256": "0x4809039c0cfc4e414ff99102a01476d12be7c89b46601ab9832e13f6ad8b823d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://f4b11a542acc57d575e15a344c6bc1796fdce1c34fa0998eb1c2efe9151a46f5",
-				"dweb:/ipfs/QmTa3upWghfpjHbLc6mzykrAKeUiNBVaTt1EXjCoLC8sQk"
+				"bzz-raw://379e7be831594504a6e9c02196530acf46dba7513387aa859f632c7f4d5d6581",
+				"dweb:/ipfs/QmUv4gMgkJcU3M89a8RrEYQHuaHKvSPYg7bpsCuGy9vZEP"
 			]
 		}
 	},

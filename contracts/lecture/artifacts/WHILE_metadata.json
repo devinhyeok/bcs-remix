@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/gasfee.sol": "WHILE"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/gasfee.sol": {
+			"keccak256": "0xcdf0d8bdbaec572f9445bc92587a69af1f7f0f8f7e23aa68cee204fb169f9945",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bfc5a6fcf2a177e5b1666cb802e8f0268750fcd60bf1436fbe6bd25068f055a1",
+				"dweb:/ipfs/QmYhFehTqVLq3MkwA9MTVapM3hwYWWJyZYHPZi7q58c1oZ"
+			]
+		}
+	},
+	"version": 1
+}

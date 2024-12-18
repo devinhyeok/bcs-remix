@@ -14,14 +14,22 @@ contract WHILE {
     }
 
     function while_2(uint _n) public pure returns(uint) {
-        uint a = 1;
-        uint count = 1;
+        uint count;
 
-        while(_n > a * 10) {
-            a *= 10;
+        while(_n > 0) {
+            _n /= 10;
             count++;
         }
 
         return count;
+    }
+
+    function while_3(uint _n) public pure returns(uint) {
+        uint count;
+
+        while(_n > 0) {
+            _n /= 8;
+            count++;
+        }
     }
 }

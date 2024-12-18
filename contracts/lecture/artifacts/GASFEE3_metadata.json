@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "A",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "B",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "C",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/gasfee.sol": "GASFEE3"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/gasfee.sol": {
+			"keccak256": "0x95d2b7715218be71be6a9cd33e65ae4cac52ce58cb692176e689ff501dc3810d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://afb8b074a6a0a0c4bb464e15686f616e9a3558e5cd8a8bbc84f9db901b8bd618",
+				"dweb:/ipfs/QmTrUE9LpjQduZqSD2AfCsFfBtaH26T6qY1q6NGFJsuz2A"
+			]
+		}
+	},
+	"version": 1
+}
